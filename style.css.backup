@@ -20,23 +20,6 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 
-.flex-container {
-	min-height: 100%;
-	min-width: 100%;
-	background: yellow;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	position: absolute;
-}
-
-.flex-item {
-	align-self: center;
-	flex: 1 100%;
-}
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -793,6 +776,10 @@ a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.col {
+	border: 1px solid black;
 }
 
 /*--------------------------------------------------------------
